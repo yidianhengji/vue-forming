@@ -1,0 +1,90 @@
+{
+  "el-input": {
+    "subtitle": {
+      "default": "",
+      "desc": "字段描述"
+    },
+    "placeholder": {
+      "default": "请输入占位内容",
+      "desc": "占位内容",
+      "notbind": "true"
+    },
+    "model": {
+      "default": "",
+      "desc": "请输入绑定字段",
+      "notbind": "true"
+    },
+    "disabled": {
+      "default": "",
+      "type": "bool",
+      "desc": "是否禁用"
+    },
+    "clearable": {
+      "default": "",
+      "type": "bool",
+      "desc": "是否可清空"
+    },
+    "show-password": {
+      "default": "",
+      "type": "bool",
+      "desc": "是否是密码框"
+    },
+    "type": {
+      "default": "",
+      "desc": "是否是文本域",
+      "type": "bool",
+      "istrue": "textarea",
+      "notbind": "true"
+    },
+    "rows": {
+      "default": "",
+      "desc": "文本域的行数",
+      "type": "number"
+    },
+    "autosize": {
+      "default": "",
+      "type": "bool",
+      "desc": "是否可以自适应高度"
+    }
+  },
+  "el-radio": {
+    "subtitle": {
+      "default": "",
+      "desc": "字段描述"
+    },
+    "model": {
+      "default": "",
+      "desc": "请输入绑定字段",
+      "notbind": "true"
+    },
+    "label": {
+      "default": "",
+      "desc": "输入实际值",
+      "notbind": "true"
+    },
+    "innerText": {
+      "default": "",
+      "desc": "输入显示值"
+    },
+    "disabled": {
+      "default": "",
+      "desc": "是否禁用",
+      "type": "bool"
+    },
+    "border": {
+      "default": "",
+      "desc": "是否带边框",
+      "type": "bool"
+    },
+    "size": {
+      "default": "",
+      "desc": "大小",
+      "type": "select",
+      "selectArr": [
+        { "label": "中", "value": "medium" },
+        { "label": "小", "value": "small" },
+        { "label": "迷你", "value": "mini" }
+      ]
+    }
+  }
+}
